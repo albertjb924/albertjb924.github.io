@@ -41,6 +41,11 @@ var level01 = function (window) {
             obstacleImage.y = -25;
 
         }
+        function (x,y) {
+
+        };
+
+
         for (var i=0;i<levelData.gameItems.length;++i) {
             var x =levelData.gameItems[i].x
             var y =levelData.gameItems[i].y
